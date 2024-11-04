@@ -8,8 +8,10 @@ Toolkit for downloading raw audio files from AudioSet.
 
 ## Quick start
 
-The changes I made to the original repo are:
+theNewMKE: The changes I made to the original repo are:
 change `youtube-dl` to `yt-dlp` in `requirements.txt`, `core/download.sh`, and `core/utils.py`
+This is a quick reminder that the original author's default dataset is the `unbalanced_train` type in Google's audioSet.
+You can change the dataset to download in `core/utils.py`.
 
 To download files from AudioSet for class "bird" 
 ```	
