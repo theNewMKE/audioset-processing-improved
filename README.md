@@ -9,8 +9,8 @@ Toolkit for downloading raw audio files from AudioSet.
 ## Quick start
 
 The changes I made to the original repo are:
-change 'youtube-dl' to 'yt-dlp' in
-'requirement.txt', 
+change `youtube-dl` to `yt-dlp` in
+`requirement.txt`, 
 
 To download files from AudioSet for class "bird" 
 ```	
